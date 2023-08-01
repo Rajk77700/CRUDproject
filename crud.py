@@ -9,13 +9,11 @@ mysqlcursor=mysqldb.cursor()
 # # insert value into table(knowledge_base)
    
 #     mysqlcursor.execute("insert into knowledge_base(rollno,name,marks) values(6,'RAJA',10)")
-#     # here i am commiting that recorde is inserted into database
-#     mysqldb.commit()   # what is commit()
-#     # display msg to the user
+#     mysqldb.commit()  
 #     print("record is inserted into table")
 # except:
 #     mysqldb.rollback()
-# mysqldb.close()  # yaha db se connection close ho raha hai
+# mysqldb.close() 
 
 
 
